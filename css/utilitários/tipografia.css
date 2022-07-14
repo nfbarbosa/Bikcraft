@@ -1,0 +1,112 @@
+.font-1-xxl {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.font-1-xl {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.font-1-l {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.font-1-m {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.font-1-p {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.font-1-pp {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.font-1-ep {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.font-2-xxxl {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 1.33;
+}
+
+.font-2-xxl {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.33;
+}
+
+.font-2-xl {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.font-2-l {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.333;
+}
+
+.font-2-m {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.font-2-p {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.font-2-p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-2-p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.333;
+}
+
+.font-2-p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.333;
+}
+
+.font-3 {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.33;
+}
