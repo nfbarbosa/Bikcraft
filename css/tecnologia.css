@@ -92,3 +92,14 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 400px) {
+  .tecnologia h2 {
+    margin-bottom: 20px;
+    font-size: 2.125rem;
+  }
+
+  .tecnologia h3 {
+    font-size: 1.5rem;
+  }
+}

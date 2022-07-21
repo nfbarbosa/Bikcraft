@@ -29,6 +29,7 @@ h3,
 h4,
 ul,
 p,
+dd,
 blockquote {
   margin: 0px;
 }
@@ -36,4 +37,11 @@ blockquote {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  body {
+    margin: 0 auto;
+    width: 100%;
+  }
 }

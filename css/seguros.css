@@ -9,6 +9,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
+  border-radius: 4px;
 }
 
 .seguros h2 {
@@ -62,5 +63,15 @@
 @media (max-width: 800px) {
   .seguros {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .seguros h2 {
+    font-size: 2.125rem;
+  }
+
+  .seguros-item {
+    margin: 12 auto;
   }
 }

@@ -1,0 +1,59 @@
+.seguros-pg {
+  padding-top: 24px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.vantagens-bg {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--cor-11);
+}
+.vantagens-itens ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.vantagens-itens li {
+  padding-top: 12px;
+}
+.vantagens-itens img {
+  width: 24px;
+}
+
+@media (max-width: 800px) {
+  .vantagens-itens ul {
+    gap: 40px;
+    margin-bottom: 24px;
+    padding: 32px 60px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .seguros-pg {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .vantagens-itens ul {
+    margin: 0 auto;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 24px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .seguros-pg {
+    margin: 12 auto;
+    grid-template-columns: 1fr;
+  }
+
+  .vantagens h2 {
+    font-size: 1.5rem;
+  }
+}

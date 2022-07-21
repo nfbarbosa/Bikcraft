@@ -68,3 +68,38 @@ h1 strong {
     font-size: 0.8rem;
   }
 }
+
+@media (max-width: 400px) {
+  .intro-bg {
+    background: var(--cor-10);
+    padding-top: 20px;
+    box-shadow: inset o -60px #ffffff;
+  }
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .intro img {
+    width: 300px;
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+  }
+
+  .intro-conteudo {
+    padding-top: 32px;
+    padding-bottom: 0px;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .intro p {
+    font-size: 0.8rem;
+  }
+}
