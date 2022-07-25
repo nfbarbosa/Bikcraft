@@ -109,18 +109,21 @@
 }
 
 @media (max-width: 400px) {
-  .bicicletas-conteudo h2 {
-    font-size: 2.125rem;
-    margin: 12 auto;
+  .lojas {
     max-width: 100%;
-  }
-
-  .bicicletas {
     margin: 12 auto;
   }
+  .lojas-conteudo h2 {
+    font-size: 2.125rem;
+  }
+  .lojas-conteudo h3 {
+    font-size: 1.5rem;
+  }
+  .lojas-conteudo {
+    grid-template-columns: 1fr;
+  }
 
-  .bicicletas-imagem {
-    margin: 12 auto;
-    max-width: 400px;
+  .lojas-item {
+    grid-template-columns: 1fr;
   }
 }
