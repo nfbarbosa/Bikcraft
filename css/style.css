@@ -6,6 +6,7 @@
 @import "./utilitários/tipografia.css";
 @import "./utilitários/cores.css";
 @import "./utilitários/formulario.css";
+@import "./utilitários/animacao.css";
 
 /*home*/
 @import "./main.css";
